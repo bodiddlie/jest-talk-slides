@@ -34,9 +34,74 @@
 				<section>
 					<h2>Current State of Testing</h2>
 					<ul>
-						<li>Mocha - Chai/Sinon</li>
-						<li>Enzyme</li>
+						<li class="fragment">Enzyme - Mocha - Chai/Sinon</li>
+						<li class="fragment">Selenium</li>
+						<li class="fragment">Protractor</li>
 					</ul>
+				</section>
+				<section>
+					<h2>Jest</h2>
+					<h3>Surely you must be joking</h3>
+					<img class="fragment" src="http://i.giphy.com/5Cxuyn8LPWzyU.gif" />
+        </section>
+				<section>
+					<section>
+						<h2>Old Jest</h2>
+						<ul>
+							<li>Slow</li>
+							<li>Auto-mocking</li>
+							<li>File Patterns</li>
+						</ul>
+					</section>
+					<section>
+						<h3>New and Improved</h3>
+						<ul>
+							<li>Faster test runs</li>
+							<li>Auto-mocking off by default</li>
+							<li><q style="color:papayawhip;">*.spec.js</q> &amp; <q style="color:seagreen;">*.test.js</q> support</li>
+							<li class="fragment">Snapshot Tests</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>Snapshot Tests</h2>
+					<section>
+						<ul>
+							<li>Uses JSON serialization to compare objects</li>
+							<li>Creates a snapshot file</li>
+							<li>Test runs compare output with previous snapshot
+								<ul>
+									<li>No differences = test passes</li>
+									<li>Any differences flagged as failed test</li>
+									<li>Update snapshot or fix code</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Use Cases?</h3>
+						<ul>
+							<li>Testing Views</li>
+							<li>Action Creators</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Demo</h2>
+					</section>
+					<section>
+						<h3>Wrap Up</h3>
+						<ul>
+							<li class="fragment">Can still use Enzyme</li>
+							<li class="fragment">Requires Discipline</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>Thanks!</h2>
+					<p>
+						- Slides online at https://bodiddlie.github.io/jest-talk-slides <br>
+						- Demo code at <a href="https://github.com/bodiddlie/jest-talk">https://github.com/bodiddlie/jest-talk</a> <br>
+					</p>
 				</section>
 			</div>
 		</div>
